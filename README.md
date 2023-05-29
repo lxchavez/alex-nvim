@@ -29,6 +29,7 @@ Edit `~/.config/nvim/remap.lua`.
 - `<C-p>`: search for files only in a git repo
 - `<C-e>`: Harpoon menu listing files
 - `<C-t>`, `<C-h>`: Harpoon switch back and forth between files
+- `<C-o>`, open NERDTree
 
 Explanation on other configured remaps: https://www.youtube.com/watch?v=w7i4amO_zaE
 

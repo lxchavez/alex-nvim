@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
   -- rose-pine theme
   use({ 'rose-pine/neovim', as = 'rose-pine' })
   vim.cmd('colorscheme rose-pine')
+  use('itchyny/lightline.vim')
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use('nvim-treesitter/playground')
@@ -23,6 +24,8 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use('tpope/vim-sensible')
+  use('tpope/vim-surround')
+  use('scrooloose/nerdtree')
 
   -- LSPs
   use {
