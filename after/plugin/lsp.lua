@@ -4,7 +4,7 @@ local lsp = require('lsp-zero').preset("recommended")
 lsp.nvim_workspace()
 
 lsp.on_attach(function(client, bufnr)
-  lsp.default_keymaps({buffer = bufnr})
+    lsp.default_keymaps({buffer = bufnr})
 end)
 
 lsp.ensure_installed({
@@ -13,6 +13,13 @@ lsp.ensure_installed({
 	'lua_ls',
 	'rust_analyzer',
 	'pylsp',
+})
+
+lsp.set_sign_icons({
+    error = '✘',
+    warn = '▲',
+    hint = '⚑',
+    info = '»'
 })
 
 lsp.setup()
