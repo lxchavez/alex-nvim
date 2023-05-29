@@ -5,6 +5,7 @@ My Neovim config mostly inspired by [ThePrimeagen](https://www.youtube.com/watch
 ## Installation
 
 - `brew install neovim`
+- `brew install ripgrep`
 - Checkout this repo under ~/.config/nvim`
 
 ## Commands
