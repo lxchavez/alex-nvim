@@ -20,6 +20,8 @@ My Neovim config mostly inspired by [ThePrimeagen](https://www.youtube.com/watch
 
 Edit `~/.config/nvim/remap.lua`.
 
+## Useful Stuff
+
 - `<leader>pv`: explore
 - `<leader>pf`: project finder - find files
 - `<leader>ps`: project search - find files with Grep > prompt
@@ -30,6 +32,10 @@ Edit `~/.config/nvim/remap.lua`.
 - `<C-e>`: Harpoon menu listing files
 - `<C-t>`, `<C-h>`: Harpoon switch back and forth between files
 - `<C-o>`, open NERDTree
+
+- `gcc`: Comment out a line
+- `gcap`: Comment out a paragraph   
+- `gc` (in Visual mode): Comment out the selection 
 
 Explanation on other configured remaps: https://www.youtube.com/watch?v=w7i4amO_zaE
 
