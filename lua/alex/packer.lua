@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
   use('tpope/vim-fugitive')
   use('tpope/vim-sensible')
   use('tpope/vim-surround')
+  use('airblade/vim-gitgutter')
   use('scrooloose/nerdtree')
 
   -- LSPs
